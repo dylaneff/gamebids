@@ -1,0 +1,483 @@
+/********
+  BODY
+********/
+body {
+    background-image: url('../images/bg.png');
+    color: #000305;
+    font-size: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+    text-align: left;
+    margin:0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #00c800;
+}
+a:hover, a:active{
+    background-color: #00c800;
+    color: white;
+}
+
+h1, h2 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+h2{
+    font-size: 110%;
+}
+
+.error {
+    color: darkred;
+}
+.accept {
+    color: #00c800;
+}
+.info{
+    color:#444;
+    font-size: 80%;
+    font-style: italic;
+}
+
+.mobilelogin{
+    display: none;
+}
+/************
+PAGE WRAPPER
+*************/
+.wrapper{
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+}
+/**************
+  MAIN HEADER
+***************/
+.mainheader img{
+    width: 30%;
+    height: auto;
+    margin: 2%;
+}
+
+.mainheader {
+    background-image: url('../images/BANNER.png');
+    background-size:cover;
+    background-color: #73b2d6;
+    width:100%;
+    margin:0 auto;
+    clear: both;
+}
+#user{
+    position: absolute;
+    top: 5mm;
+    right: 8mm;
+    height: 12em;
+    width: 17em;
+    padding: 5em 2em 0 2em;
+    background-image: url('../images/bubble.png');
+    background-size: cover;
+    text-align: center;
+    font-family: "Press Start 2P", cursive;
+    font-weight: bolder;
+}
+#user p{
+    word-wrap: normal;
+    font-size: 80%;
+
+}
+
+/*********
+    NAV
+**********/
+.mainheader nav{
+    background: #00c800;
+    height:40px;
+    width: 70%;
+    margin: 0 auto;
+    -webkit-border-top-left-radius: 45px;
+    -webkit-border-top-right-radius: 45px;
+    -moz-border-radius-topleft: 45px;
+    -moz-border-radius-topright: 45px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.mainheader nav ul{
+    list-style: none;
+    margin: 0 auto;
+}
+
+.mainheader nav ul li{
+    float: left;
+    display: inline;
+}
+
+.mainheader nav a:link, .mainheader nav a:visited{
+    color:#fff;
+    display:inline-block;
+    padding: 10px 25px;
+    height: 20px;
+}
+
+.mainheader nav a:hover, .mainheader nav a:active{
+    background-color: #73b2d6;
+    text-shadow: none;
+}
+
+/************
+MAIN CONTENT
+************/
+
+.maincontent{
+    line-height: 25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.content{
+    width: 70%;
+    float:left;
+}
+
+
+.top-content{
+    background-color: white;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 3%;
+    min-height:50%;
+}
+
+
+/*******
+SIDEBAR
+********/
+.sidebarLeft {
+    width: 21%;
+    float: left;
+    background-color: white;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 2% 3% 2% 0;
+    padding: 2% 3%;
+    min-height: 50%;
+
+}
+.sidebarRight {
+    width: 21%;
+    float: left;
+    background-color: white;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 2% 0 2% 3%;
+    padding: 2% 3%;
+    min-height: 50%;
+
+}
+
+.sideNav {
+    list-style: none;
+    margin: 0 auto 0 -3em;
+    width: 100%;
+}
+
+.sideNav li{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.sideNav a:link, .sideNav a:visited{
+    color:#000;
+    display:block;
+    padding: 10px 25px;
+    height: 20px;
+}
+
+.sideNav a:hover, .sideNav a:active{
+    background-color: #73b2d6;
+    text-shadow: none;
+}
+
+.sideimg{
+    max-width: 100%;
+    height: auto;
+}
+
+/********
+  FOOTER
+********/
+.mainfooter{
+    width: 100%;
+    float: left;
+    background-color: #666;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 2% 0;
+}
+
+.mainfooter p{
+    margin: 2% auto;
+    width: 92%;
+    color: white;
+    min-height: 40px;
+}
+/**************
+BROWSE LISTINGS
+**************/
+
+
+
+
+.browse {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.browse tr{
+    height: 7em;
+    border-bottom: 1px solid black !important;
+}
+.browse  tr td {
+    border-bottom:1pt solid #bbb;
+    padding-top: 0;
+    padding-left: 1em;
+}
+
+.browseimg {
+    width:  auto;
+    max-height: 6.5em;
+}
+.browseCell {
+    width: 7em;
+    margin-right: 16em;
+}
+
+/***********
+VIEW LISTINGS
+************/
+.viewListing{
+    max-width: 70%;
+    height: auto;
+}
+
+.history {
+    width: 100%;
+}
+
+.history td {
+    text-align: right;
+}
+
+#placeBid{
+    width:100%;
+}
+
+
+/************
+    FORMS
+*************/
+.field textarea {
+    resize: none;
+}
+
+.submit {
+    background-color: #ccc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:5px;
+    margin-top: 1%;
+    color: #00c800;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    border:none;
+    width: 26%;
+    height: 2em;
+}
+
+
+
+.submit:hover {
+    border: none;
+    background: #73b2d6;
+}
+input {
+    min-height: 2em;
+}
+
+#title {
+    width :45em;
+    max-width: 100%;
+}
+.field input[type="number"] {
+    width :7em;
+}
+
+/*************
+  MEDIA QUERY
+**************/
+
+
+@media only screen and (min-width: 150px) and (max-width: 600px){
+    body{
+        font-size: 115%;
+    }
+
+
+    h1, h2, h3, h4, h5, h6{
+        text-align: center;
+    }
+
+/**
+HEADER
+**/
+    .mainheader{
+        width: 100%;
+    }
+
+    #user {
+        display: none;
+    }
+
+    .wrapper{
+        width: 90%;
+    }
+
+    .mainheader img{
+        width: 90%;
+        margin: 2% 5%;
+    }
+
+
+    .mobilelogin{
+        background: #fff;
+        height:40px;
+        width: 100%;
+        margin: 2% auto;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        font-family: 'Ubuntu', sans-serif;
+        display: block;
+    }
+
+    .mobilelogin ul{
+        list-style: none;
+        margin: auto;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .mobilelogin ul li{
+        float: left;
+        display: inline;
+        padding: 0;
+        width:50%;
+    }
+
+    .mobilelogin a{
+        color: #000;
+        display:inline-block;
+        padding: 5px 0 0 0;
+        margin: 0;
+        text-align: center;
+        height: 35px;
+        width: 100%;
+    }
+
+/******
+NAVBAR
+******/
+    .mainheader nav{
+        height:160px;
+        width: 90%;
+    }
+
+    .mainheader nav ul{
+        padding-left: 0;
+    }
+
+    .mainheader nav ul li{
+        width: 100%;
+        text-align: center;
+    }
+
+    .mainheader nav a:link, .mainheader nav a:visited{
+        padding: 10px 25px;
+        height: 20px;
+        display:block;
+    }
+/*****
+CONTENT
+*******/
+    .maincontent{
+        line-height: 30px;
+    }
+
+    .content{
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    .top-content{
+        margin-top: 3%;
+    }
+/*****
+SIDEBAR
+******/
+    .sidebarLeft, .sidebarRight {
+        width: 94%;
+        margin: 2% 0;
+        padding: 2% 3%;
+
+    }
+    .sideNav {
+        list-style: none;
+        margin: 0 auto 0 -2.2em;
+        width: 100%;
+    }
+    .hide {
+        display: none;
+    }
+/****
+BROWSE LISTINGS
+******/
+    .browseCell {
+        max-width: 3em;
+        margin-right: 0;
+    }
+    .browseimg {
+        width:  5.5em;
+    }
+    td {
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
+/******
+FORMS
+********/
+    .submit {
+        width: 100%;
+
+    }
+
+    .field textarea {
+        width: 100%;
+        height: 8em;
+    }
+    #title {
+        width :100%;
+    }
+}
